@@ -1,0 +1,49 @@
+#contact{
+    padding-top: 10px;
+}
+#searchbar{
+    width: 400px;
+}
+.nav-item{
+    font-weight: bold;
+    padding:5px;
+    margin-left: 30px; 
+}
+#bio{
+    margin-left: 20px;
+    height: 600px;
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    width: 650px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#biohead{
+    font-size: 32px;
+    font-weight: bold;
+}
+#address{
+    margin-left: 20px;
+    height: 600px;
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    width: 650px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#addresshead{
+    font-size: 32px;
+    font-weight: bold;
+}
+#loction{
+    height: 300px;
+    width: 650px;
+}
+#admin{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+#map{
+    padding-top: 20px;
+}

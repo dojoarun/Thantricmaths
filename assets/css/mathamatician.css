@@ -1,0 +1,21 @@
+.mathamaticiansfirst{
+    border-radius: 50px;
+}
+#searchbar{
+    width: 400px;
+}
+.nav-item{
+    font-weight: bold;
+    padding:5px;
+    margin-left: 30px; 
+}
+#heading{
+    background-color: whitesmoke;
+}
+.btn-link{
+    color: black;
+
+}
+.mathamaticianslast{
+    border-radius: 50px;
+}
