@@ -10,12 +10,12 @@
     margin-left: 30px; 
 }
 #bio{
+    margin-right: 20px;
     margin-left: 20px;
     height: 600px;
     padding-top: 20px;
     text-align: center;
     vertical-align: middle;
-    width: 650px;
     font-family: 'Courier New', Courier, monospace;
 }
 #biohead{
@@ -23,12 +23,12 @@
     font-weight: bold;
 }
 #address{
+    margin-right: 20px;
     margin-left: 20px;
     height: 600px;
     padding-top: 20px;
     text-align: center;
     vertical-align: middle;
-    width: 650px;
     font-family: 'Courier New', Courier, monospace;
 }
 #addresshead{
@@ -45,5 +45,11 @@
     text-align: center;
 }
 #map{
+    margin-right: 20px;
+    margin-left: 20px;
     padding-top: 20px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
 }
