@@ -17,16 +17,25 @@
 <!--body starts here-->
 
 <body>
+    <div class="loader">
+        <div class="image">
+          <i class="fa fa-codepen"></i>
+        </div>
+        <span></span>
+      </div>
     <!--Add header image in first row-->
-    <div class="container-fluid" id="header">
+    <div class="container" id="header">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <img src="assets/img/banner1.png" class="img-fluid" alt="header">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                <img src="assets/img/logo1.png" class="img-fluid" alt="header">
+            </div>
+            <div id="headname">
+                <img src="assets/img/banner_0.png" class="img-fluid" alt="header">
             </div>
         </div>
     </div>
     <!--Add Top menu bar-->
-    <div class="container-fluid" id="top-menu">
+    <div class="container" id="top-menu">
         <div class="row">
             <div class="col">
                 <nav class="navbar navbar-expand-lg navbar-light bg-gray">
@@ -38,24 +47,24 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
+                                <a id="len1" class="hoverable" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="mathamaticians.html">Mathamaticians</a>
+                                <a id="len2" class="hoverable" href="mathamaticians.html">Mathamaticians</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="documents.html">
+                                <a id="len3" class="hoverable" href="documents.html">
                                     Documents
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="videos.html">Videos</a>
+                                <a id="len4" class="hoverable" href="videos.html">Videos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">About us</a>
+                                <a id="len5" class="hoverable" href="contact.html">About us</a>
                             </li>
                         </ul>
-
+                        
                     </div>
                 </nav>
             </div>
@@ -90,60 +99,146 @@
             </a>
         </div>
     </div>
-    <!--Content for small students upto 10th-->
-    <h1><u>I to X</u></h1>
+    <br>
+    <!--School Section-->
+    <h1><u>SCHOOL STUDENTS</u></h1>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
                 <div class="card cardlist">
-                    <img src="assets/img/algebra.jpg" class="card-img-top img-fluid" alt="mission">
                     <div class="card-body">
                         <h5 class="card-title">
-                            <centre>
-                                ALGEBRA
-                            </centre>
+                            <a class="btn btn-dark" href="...">Class I</a>
                         </h5>
-                        <p class="card-text">ax<sup> 2</sup> + bx + c = 0, where a is not zero</p>
-                        <a class="btn btn-info" href="algebra.html">Click Here</a>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
                 <div class="card cardlist">
-                    <img src="assets/img/arithmatic.jpg" class="card-img-top img-fluid" alt="Vision">
                     <div class="card-body">
                         <h5 class="card-title">
-                            <centre>
-                                ARITHMETIC
-                            </centre>
+                            <a class="btn btn-dark" href="...">Class II</a>
                         </h5>
-                        <p class="card-text">Art of numbers 0-9 which is endless magic
-                        </p>
-                        <a class="btn btn-info" href="arithmetic.html">Click Here</a>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
                 <div class="card cardlist">
-                    <img src="assets/img/geometry.jpg" class="card-img-top img-fluid" alt="Vision">
                     <div class="card-body">
                         <h5 class="card-title">
-                            <centre>
-                                GEOMETRY
-                            </centre>
+                            <a class="btn btn-dark" href="...">Class III</a>
                         </h5>
-                        <p class="card-text">There is no Royal Road to Geometry<br>
-                        </p>
-                        <a class="btn btn-info" href="geometry.html">Click Here</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
+                <div class="card cardlist">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a class="btn btn-dark" href="...">Class IV</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
+                <div class="card cardlist">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a class="btn btn-dark" href="...">Class V</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
+                <div class="card cardlist">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a class="btn btn-dark" href="...">Class VI</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
+                <div class="card cardlist">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a class="btn btn-dark" href="...">Class VII</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
+                <div class="card cardlist">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a class="btn btn-dark" href="...">Class VIII</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
+                <div class="card cardlist">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a class="btn btn-dark" href="...">Class IX</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
+                <div class="card cardlist">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a class="btn btn-dark" href="...">Class X</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
+                <div class="card cardlist">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a class="btn btn-dark" href="...">Class XI</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
+                <div class="card cardlist">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a class="btn btn-dark" href="...">Class XII</a>
+                        </h5>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <h1><u>COMPETITIVE EXAM(COMING SOON)</u></h1>
+    <br>
+    <h1><u>COMPETITIVE EXAM</u></h1>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
+                <div class="card cardlist">
+                    <img src="assets/img/gate.png" class="card-img-top img-fluid" alt="mission">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <centre>
+                                GATE
+                            </centre>
+                        </h5>
+                        <p class="card-text">Hit with proprt inspiration and achieve the goals.</p>
+                        <a class="btn btn-dark" href="...">Click Here</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
                 <div class="card cardlist">
                     <img src="assets/img/psc.jpg" class="card-img-top img-fluid" alt="mission">
                     <div class="card-body">
@@ -153,11 +248,11 @@
                             </centre>
                         </h5>
                         <p class="card-text">To build a place where people can come to find and discover anything.</p>
-                        <a class="btn btn-info" href="...">Click Here</a>
+                        <a class="btn btn-dark" href="...">Click Here</a>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
                 <div class="card cardlist">
                     <img src="assets/img/upsc.jpg" class="card-img-top img-fluid" alt="Vision">
                     <div class="card-body">
@@ -168,11 +263,11 @@
                         </h5>
                         <p class="card-text">Our vision is to be earth's most customer-centric company.
                         </p>
-                        <a class="btn btn-info" href="...">Click Here</a>
+                        <a class="btn btn-dark" href="...">Click Here</a>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
                 <div class="card cardlist">
                     <img src="assets/img/bank.jpg" class="card-img-top img-fluid" alt="Vision">
                     <div class="card-body">
@@ -181,8 +276,8 @@
                                 BANK
                             </centre>
                         </h5>
-                        <p class="card-text">Analyse business with customized report and build<br> new.</p>
-                        <a class="btn btn-info" href="...">Click Here</a>
+                        <p class="card-text">Analyse business with customized report and build new.</p>
+                        <a class="btn btn-dark" href="...">Click Here</a>
                     </div>
                 </div>
             </div>
