@@ -1,6 +1,9 @@
 #contact{
     padding-top: 10px;
 }
+.cardlist{
+    box-shadow: 5px 10px 8px rgb(32, 32, 32); 
+}
 #searchbar{
     width: 400px;
 }
